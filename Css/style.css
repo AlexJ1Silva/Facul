@@ -1,20 +1,30 @@
-
+/* css deixar logo redonda */
 .rounded-circle {
     border-radius: 50%!important;
+    
 }
+/* Tamanho da Logo */
 .img-fluid {
     max-width: 180px;
     height: auto;
+    
 }
 
+.img-fluid:hover{
+   
+}
+
+/* Alinhamento */
 .text-center {
     text-align: center!important;
 }
 
 .mt-3 {
     margin-top: 1rem!important;
+    
 }
 
+/* Alinhamento redes Sociais */
 #header .profile .social-links a img{
 
     font-size: 18px;
@@ -28,10 +38,20 @@
     text-align: center;
     width: 42px;
     height: 52px;
-    transition: 0.3s;
+    transition: .5s ease;
+     
 }
 
 
+
+
+#header .social-links a img:hover{
+    border-radius: 6rem;
+    box-shadow: 0 0 1rem #0cf924;
+}
+
+
+/* Borda Branca Logo */
 #header .profile img {
     margin: 15px auto;
     display: block;
@@ -43,10 +63,12 @@
     padding: 30px;
     
 }
+
+/* Div Total nav*/
 .d-flex {
     background-color: #95A278;
-    width: 20vw;
-    height: 45vw;
+    height: 100vh;
+    
 }
 *, ::after, ::before {
     box-sizing: border-box;
@@ -68,26 +90,52 @@
     
 }
 
-
+/* alinhamento home */
 .align a{
     
     height: 55px;
     padding-right: 50px;
     display: flex;
     justify-content: center;
+    transition: .5s ease;
+    box-shadow: none;   
 }
 
-footer{
-    max-width: 20vw;
-    background-color: #95A278;
+.align img:hover {
+border-radius: 4rem;
+box-shadow: 0 0 1rem #0cf924;
+
+}
+
+.copy{
+    line-height: 150px;
     text-align: center;
     font-size: small;
     color: #e7e7e7;
 }
 
-/* .home{
-    
-    float: right
+/* div home */
+.home img{ 
+   display: block;
+    opacity: 40%; 
+    width: 80%;
+   display: flex;
+   height: 100vh;   
+  
+}
+
+/* Div Total */
+.container{
+float: left;
+ 
+}   
+
+
+/* body{
+    background-image: url(/img-Projeto/CapaHome.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
 }
  */
 
