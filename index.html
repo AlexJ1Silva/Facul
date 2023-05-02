@@ -6,13 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Projeto</title>
+    
+<!--     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+ -->    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+ 
+ <title>Projeto</title>
 </head>
 
 <body>
+
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
     <header id="header">
         <!--  Principal -->
-        <div class="container">
+        
             <div class="d-flex flex-column">
                 <!-- Div do Profile e Redes Sociais -->
                 <div class="profile">
@@ -29,31 +41,34 @@
                 <!-- div Menu de navegação -->
                 <nav id="navbar" class="nav-menu navbar ">
 
-                    <div class="align"><a href="#home"><img src="img-Projeto/Home.png">
+                    <div class="align"><a href="#home"><img src="img-Projeto/Home.png " onclick={home()}>
                             <p><b>Home</b></p>
                         </a>
-                        <div class="align"><a href="#portfolio"><img src="img-Projeto/Portifolio.png">
+                        <div class="align"><a href="#portfolio"><img src="img-Projeto/Portifolio.png" onclick={portifolio()}>
                                 <p><b>Portfolio</b></p>
                             </a>
                         </div>
-                        <div class="align"><a href="#about"><img src="img-Projeto/Sobre.png">
+                        <div class="align"><a href="#about"><img src="img-Projeto/Sobre.png" onclick={sobre()}>
                                 <p><b>Sobre</b></p>
                             </a>
-                            <div class="copy">© Copyright <b>Charbô Toys</b></div>
+                            <div class="copy align">© Copyright <b>Charbô Toys</b></div>
                         </div>
                     </div>
                 </nav>
             </div>
-        </div>
+        
         
         <!-- Futura div de ress -->
         
-        <div class="home"><img src="img-Projeto/Home3.webp"></div>
-        
     </header>
 
+    <div class="homeContainer" id="homeContainer"> </div>
+    <div class="portifolioContainer" id="portifolioContainer"></div>
+    <div class="sobreContainer" id="sobreContainer"></div>
+   
+   
 
-<script src=""></script>
+<script src="JavaScript/projeto.js"></script>
 
 </body>
 
