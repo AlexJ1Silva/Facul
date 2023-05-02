@@ -1,6 +1,6 @@
 
 
-function home(){
+function home() {
 
   const homeContainer = document.querySelector("#homeContainer");
   console.log((homeContainer.querySelector("div > div") && homeContainer.childElementCount > 0));
@@ -11,9 +11,9 @@ function home(){
   let homeContainsDiv = homeContainer.querySelector("div > div") && homeContainer.childElementCount > 0;
 
 
-if( !homeContainsDiv){
+  if (!homeContainsDiv) {
 
-  const homeInnerHTML =`
+    const homeInnerHTML = `
   
     <div class="home">
   <img src="img-Projeto/home3home.png" >
@@ -36,15 +36,15 @@ if( !homeContainsDiv){
 
   `
 
-  home.innerHTML = homeInnerHTML;
+    home.innerHTML = homeInnerHTML;
 
-  homeContainer.appendChild(home);
+    homeContainer.appendChild(home);
+
+  }
 
 }
-  
-}
 
-function portifolio(){
+function portifolio() {
 
   const portifolioContainer = document.querySelector("#portifolioContainer");
   console.log((portifolioContainer.querySelector("div > div") && portifolioContainer.childElementCount > 0));
@@ -55,9 +55,9 @@ function portifolio(){
   let portifolioContainsDiv = portifolioContainer.querySelector("div > div") && portifolioContainer.childElementCount > 0;
 
 
-if( !portifolioContainsDiv){
+  if (!portifolioContainsDiv) {
 
-  const portifolioInnerHTML =`
+    const portifolioInnerHTML = `
   
     <div class="portifolio">
   <img src="--img-Projeto/home3home.png--" >
@@ -80,15 +80,16 @@ if( !portifolioContainsDiv){
 
   `
 
-  portifolio.innerHTML = portifolioInnerHTML;
+    portifolio.innerHTML = portifolioInnerHTML;
 
-  portifolioContainer.appendChild(portifolio);
+    portifolioContainer.appendChild(portifolio);
+
+  }
 
 }
 
-}
-
-function sobre(){
+function sobre() {
+  
   const sobreContainer = document.querySelector("#sobreContainer");
   console.log((sobreContainer.querySelector("div > div") && sobreContainer.childElementCount > 0));
 
@@ -98,9 +99,9 @@ function sobre(){
   let sobreContainsDiv = sobreContainer.querySelector("div > div") && sobreContainer.childElementCount > 0;
 
 
-if( !sobreContainsDiv){
+  if (!sobreContainsDiv) {
 
-  const sobreInnerHTML =`
+    const sobreInnerHTML = `
   
     <div class="sobre">
   <img src="--img-Projeto/home3home.png--" >
@@ -123,77 +124,77 @@ if( !sobreContainsDiv){
 
   `
 
-  sobre.innerHTML = sobreInnerHTML;
+    sobre.innerHTML = sobreInnerHTML;
 
-  sobreContainer.appendChild(sobre);
+    sobreContainer.appendChild(sobre);
+
+  }
 
 }
 
-}
 
+(function () {
+  "use strict";
 
-(function() {
-    "use strict";
-  
-    /**
-     * selector helper function
-     */
-    const select = (el, all = false) => {
-      el = el.trim()
+  /**
+   * selector helper function
+   */
+  const select = (el, all = false) => {
+    el = el.trim()
+    if (all) {
+      return [...document.querySelectorAll(el)]
+    } else {
+      return document.querySelector(el)
+    }
+  }
+
+  /**
+   * event listener function
+   */
+  const on = (type, el, listener, all = false) => {
+    let selectEl = select(el, all)
+    if (selectEl) {
       if (all) {
-        return [...document.querySelectorAll(el)]
+        selectEl.forEach(e => e.addEventListener(type, listener))
       } else {
-        return document.querySelector(el)
+        selectEl.addEventListener(type, listener)
       }
     }
-  
-    /**
-     * event listener function
-     */
-    const on = (type, el, listener, all = false) => {
-      let selectEl = select(el, all)
-      if (selectEl) {
-        if (all) {
-          selectEl.forEach(e => e.addEventListener(type, listener))
-        } else {
-          selectEl.addEventListener(type, listener)
-        }
-      }
-    }
-  
-    /**
-     * scroll event listener 
-     */
-    const onscroll = (el, listener) => {
-      el.addEventListener('scroll', listener)
-    }
-  
-  
-    /**
-     * Mobile nav toggle
-     */
-    on('click', '.mobile-nav-toggle', function(e) {
-      select('body').classList.toggle('mobile-nav-active')
-      this.classList.toggle('bi-list')
-      this.classList.toggle('bi-x')
-    })
-  
+  }
 
-    /**
-     * Animation on scroll
-     */
-    window.addEventListener('load', () => {
-      AOS.init({
-        duration: 1000,
-        easing: 'ease-in-out',
-        once: true,
-        mirror: false
-      })
-    });
-  
-    /**
-     * Initiate Pure Counter 
-     */
-    new PureCounter();
-  
-  })()
+  /**
+   * scroll event listener 
+   */
+  const onscroll = (el, listener) => {
+    el.addEventListener('scroll', listener)
+  }
+
+
+  /**
+   * Mobile nav toggle
+   */
+  on('click', '.mobile-nav-toggle', function (e) {
+    select('body').classList.toggle('mobile-nav-active')
+    this.classList.toggle('bi-list')
+    this.classList.toggle('bi-x')
+  })
+
+
+  /**
+   * Animation on scroll
+   */
+  window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
+  });
+
+  /**
+   * Initiate Pure Counter 
+   */
+  new PureCounter();
+
+})()
