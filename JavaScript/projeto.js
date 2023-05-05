@@ -45,6 +45,7 @@ function home() {
 }
 
 function portifolio() {
+  
 
   const portifolioContainer = document.querySelector("#portifolioContainer");
   console.log((portifolioContainer.querySelector("div > div") && portifolioContainer.childElementCount > 0));
