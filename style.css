@@ -67,7 +67,7 @@
 .d-flex {
   background-color: #95A278;
   height: 100vh;
-
+  
 }
 
 *,
@@ -121,12 +121,17 @@ p {
 /* div home */
 
 .home {
+  background-color: #e5f7f2;
+opacity: 2.8;
+background-image:  radial-gradient(#44f7f7 0.5px, transparent 0.5px), radial-gradient(#44f78c 0.5px, #e5f7f1 0.5px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px;
   /* display: block; */
-  background-color: #149ddd;
+  background-color: #14ddb1;
   /* width: 80%; */
   /* display: flex; */
   width: 1000px;
-  max-height: 100vh;
+
   text-align: center;
   display: flex;
   padding: 16px;
@@ -137,12 +142,17 @@ p {
 }
 
 .portifolio {
+  background-color: #e5f7f2;
+  opacity: 2.8;
+  background-image:  radial-gradient(#44f7f7 0.5px, transparent 0.5px), radial-gradient(#44f78c 0.5px, #e5f7f1 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0,10px 10px;
   /* display: block; */
   background-color: #149ddd;
   /* width: 80%; */
   /* display: flex; */
   width: 1000px;
-  max-height: 100vh;
+ 
   text-align: center;
   display: flex;
   padding: 16px;
@@ -152,12 +162,17 @@ p {
 }
 
 .sobre {
+  background-color: #e5f7f2;
+  opacity: 2.8;
+  background-image:  radial-gradient(#44f7f7 0.5px, transparent 0.5px), radial-gradient(#44f78c 0.5px, #e5f7f1 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0,10px 10px;
   /* display: block; */
   background-color: #149ddd;
   /* width: 80%; */
   /* display: flex; */
   width: 1000px;
-  max-height: 100vh;
+  
   text-align: center;
   display: flex;
   padding: 16px;
@@ -165,7 +180,19 @@ p {
   flex-direction: column;
   align-items: center;
 }
+.portifolio img{
 
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*   background-color: #f90cc6; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-height: 50vh;
+  width: 680px;
+}
 .sobre img{
   text-align: center;
   padding: 15px;
@@ -233,7 +260,7 @@ p {
   }
 
   .home {
-
+    
     /* background-color: #f90cc6; */
     flex-direction: row;
     flex-wrap: wrap;

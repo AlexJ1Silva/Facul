@@ -28,10 +28,7 @@ function home() {
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur odio vero excepturi iusto accusamus, ea voluptatem! Perferendis minima sit quaerat, voluptates quis sapiente pariatur, qui non quidem in consequatur.
 
   </div><br>
-  <div class="row">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ea, et perferendis nisi sint quisquam natus. Blanditiis nemo inventore iusto eligendi repellendus molestias eius enim, porro odit provident, nobis quos.
-      3
-  </div>
+
 
   </div>
 
@@ -64,13 +61,14 @@ function portifolio() {
     const portifolioInnerHTML = `
   
     <div class="portifolio">
-  <img src="--img-Projeto/home3home.png--" >
+  <img src="img-Projeto/home3home.png" >
       
   
   <div class="row">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur odio vero excepturi iusto accusamus, ea voluptatem! Perferendis minima sit quaerat, voluptates quis sapiente pariatur, qui non quidem in consequatur.
       2
   </div><br>
+  <img src="img-Projeto/home3home.png" >
   <div class="row">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ea, et perferendis nisi sint quisquam natus. Blanditiis nemo inventore iusto eligendi repellendus molestias eius enim, porro odit provident, nobis quos.
       3
