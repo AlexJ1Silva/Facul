@@ -2,7 +2,11 @@
 
 function home() {
 
+  const sobreContainer = document.querySelector("#sobreContainer");
+  sobreContainer.innerHTML = '';
   const homeContainer = document.querySelector("#homeContainer");
+  const portifolioContainer = document.querySelector("#portifolioContainer");
+  portifolioContainer.innerHTML = '';
   console.log((homeContainer.querySelector("div > div") && homeContainer.childElementCount > 0));
 
   const home = document.createElement("div");
@@ -10,27 +14,25 @@ function home() {
 
   let homeContainsDiv = homeContainer.querySelector("div > div") && homeContainer.childElementCount > 0;
 
-
   if (!homeContainsDiv) {
 
     const homeInnerHTML = `
   
     <div class="home">
-  <img src="img-Projeto/home3home.png" >
+  <img src="img-Projeto/ur6.1.png" >
       
   
   <div class="row">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur odio vero excepturi iusto accusamus, ea voluptatem! Perferendis minima sit quaerat, voluptates quis sapiente pariatur, qui non quidem in consequatur.
-      2
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur odio vero excepturi iusto accusamus, ea voluptatem! Perferendis minima sit quaerat, voluptates quis sapiente pariatur, qui non quidem in consequatur.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur odio vero excepturi iusto accusamus, ea voluptatem! Perferendis minima sit quaerat, voluptates quis sapiente pariatur, qui non quidem in consequatur.
+
   </div><br>
   <div class="row">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ea, et perferendis nisi sint quisquam natus. Blanditiis nemo inventore iusto eligendi repellendus molestias eius enim, porro odit provident, nobis quos.
       3
   </div>
-  <div class="row">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ea, et perferendis nisi sint quisquam natus. Blanditiis nemo inventore iusto eligendi repellendus molestias eius enim, porro odit provident, nobis quos.
-      4
-  </div>
+
   </div>
 
 
@@ -45,8 +47,10 @@ function home() {
 }
 
 function portifolio() {
-  
-
+  const sobreContainer = document.querySelector("#sobreContainer");
+  sobreContainer.innerHTML = '';
+  const homeContainer = document.querySelector("#homeContainer");
+  homeContainer.innerHTML = '';
   const portifolioContainer = document.querySelector("#portifolioContainer");
   console.log((portifolioContainer.querySelector("div > div") && portifolioContainer.childElementCount > 0));
 
@@ -54,7 +58,6 @@ function portifolio() {
   portifolio.classList.add("portifolio");
 
   let portifolioContainsDiv = portifolioContainer.querySelector("div > div") && portifolioContainer.childElementCount > 0;
-
 
   if (!portifolioContainsDiv) {
 
@@ -90,7 +93,10 @@ function portifolio() {
 }
 
 function sobre() {
-  
+  const homeContainer = document.querySelector("#homeContainer");
+  homeContainer.innerHTML = '';
+  const portifolioContainer = document.querySelector("#portifolioContainer");
+  portifolioContainer.innerHTML = '';
   const sobreContainer = document.querySelector("#sobreContainer");
   console.log((sobreContainer.querySelector("div > div") && sobreContainer.childElementCount > 0));
 
@@ -105,7 +111,7 @@ function sobre() {
     const sobreInnerHTML = `
   
     <div class="sobre">
-  <img src="--img-Projeto/home3home.png--" >
+  <img src="img-Projeto/home3home.png" >
       
   
   <div class="row">

@@ -166,7 +166,7 @@ p {
   align-items: center;
 }
 
-.home img {
+.sobre img{
   text-align: center;
   padding: 15px;
   display: flex;
@@ -176,7 +176,20 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   max-height: 50vh;
-  width: 880px;
+  width: 680px;
+}
+
+.home img {
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*   background-color: #f90cc6; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-height: 68vh;
+  width: 680px;
 
 }
 
@@ -271,6 +284,16 @@ p {
 
   }
 
+  .sobre img{
+    padding: 100px;
+    display: flex;
+    /* background-color: #f90cc6; */
+    flex-direction: row;
+    text-align: center;
+    max-height: 100vh;
+    max-width: 80vw;
+  }
+
   .row {
     padding: 30px;
   }
@@ -317,6 +340,18 @@ p {
     max-width: 98vw;
     text-align: center;
 
+  }
+
+  .sobre img{
+    padding: 10px;
+    display: flex;
+    /* background-color: #f90cc6; */
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100vh;
+    max-width: 98vw;
+    text-align: center;
   }
 
   .row {
