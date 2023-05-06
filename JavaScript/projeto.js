@@ -17,16 +17,27 @@ function home() {
   if (!homeContainsDiv) {
 
     const homeInnerHTML = `
-  <div class="text font-effect-fire-animation " ><span>C</span><span>h</span><span>a</span><span>r</span><span>b</span><span>ô</span><span>&nbsp;</span><span>T</span><span>o</span><span>y</span><span>s</span><span>&nbsp;</span> </div>
+  <div class="text " ><span>C</span><span>h</span><span>a</span><span>r</span><span>b</span><span>ô</span><span>&nbsp;</span><span>T</span><span>o</span><span>y</span><span>s</span><span>&nbsp;</span> </div>
     
   <img src="img-Projeto/ur6.1.png" >
       
   
   <div class="row">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur odio vero excepturi iusto accusamus, ea voluptatem! Perferendis minima sit quaerat, voluptates quis sapiente pariatur, qui non quidem in consequatur.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur odio vero excepturi iusto accusamus, ea voluptatem! Perferendis minima sit quaerat, voluptates quis sapiente pariatur, qui non quidem in consequatur.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur odio vero excepturi iusto accusamus, ea voluptatem! Perferendis minima sit quaerat, voluptates quis sapiente pariatur, qui non quidem in consequatur.
+  <span>Bem-vindo à Charbô Toys!</span>
 
+  <span>Há 15 anos, a Charbô Toys tem sido sinônimo de qualidade e encanto no ramo da confecção de ursos de pelúcia. Nós nos dedicamos a criar lembranças especiais para festas infantis, casas de festas e também oferecemos a comodidade do nosso e-commerce.</span>
+  
+  <span>Na Charbô Toys, entendemos o quanto momentos de celebração são importantes na vida das crianças. Por isso, nos empenhamos em produzir ursos de pelúcia únicos e cativantes, que despertam sorrisos e encantam corações. Cada um dos nossos produtos é cuidadosamente confeccionado com materiais de alta qualidade, garantindo um toque suave e durabilidade para acompanhar as aventuras dos pequenos por muito tempo.</span>
+  
+  <span>Nosso compromisso com a excelência vai além da qualidade dos nossos ursos de pelúcia. Sabemos que cada festa é única e especial, por isso oferecemos uma ampla variedade de opções de personalização. Desde a escolha de cores, estampas e acessórios, até a inclusão de detalhes personalizados, estamos prontos para transformar suas ideias em realidade. Queremos fazer parte das suas memórias mais queridas, tornando cada momento ainda mais especial e inesquecível.</span>
+  
+  <span>Além disso, a Charbô Toys entende a importância da praticidade e comodidade nos dias de hoje. Por isso, disponibilizamos nossa loja virtual, onde você pode explorar e adquirir nossos produtos com facilidade, sem precisar sair de casa. Navegue em nosso site e descubra uma infinidade de opções encantadoras para presentear ou decorar suas festas. Estamos sempre atualizando nosso catálogo, trazendo novidades que acompanham as tendências do universo infantil.</span>
+  
+  <span>Ao escolher a Charbô Toys, você está escolhendo uma empresa comprometida em oferecer produtos de qualidade, atendimento excepcional e soluções personalizadas. Valorizamos cada cliente e buscamos superar suas expectativas, proporcionando momentos mágicos e cheios de amor.</span>
+  
+  <span>Seja bem-vindo à Charbô Toys, onde a magia dos ursos de pelúcia ganha vida. Estamos ansiosos para ajudá-lo a criar lembranças encantadoras que serão eternas.</span>
+  
+  <span>Equipe Charbô Toys</span>
   </div>
 
 
@@ -113,16 +124,14 @@ function sobre() {
       
   
   <div class="row">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur odio vero excepturi iusto accusamus, ea voluptatem! Perferendis minima sit quaerat, voluptates quis sapiente pariatur, qui non quidem in consequatur.
-      2
-  </div><br>
-  <div class="row">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ea, et perferendis nisi sint quisquam natus. Blanditiis nemo inventore iusto eligendi repellendus molestias eius enim, porro odit provident, nobis quos.
-      3
-  </div>
-  <div class="row">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ea, et perferendis nisi sint quisquam natus. Blanditiis nemo inventore iusto eligendi repellendus molestias eius enim, porro odit provident, nobis quos.
-      4
+ <span>Há 15 anos, nossa empresa tem iluminado sorrisos e conquistado corações através da confecção de ursos de pelúcia excepcionais. A Charbô Toys é uma referência no ramo, dedicada a criar lembranças memoráveis para festas infantis, casas de festas e atender às necessidades dos nossos clientes através do nosso renomado e-commerce.</span>
+ <span>Na Charbô Toys, entendemos a importância dos momentos de celebração na vida das crianças. Cada um dos nossos ursos de pelúcia é meticulosamente concebido e confeccionado para transmitir a mais pura magia, proporcionando uma experiência única. Utilizando apenas os materiais mais refinados e de alta qualidade, garantimos que nossos ursos de pelúcia encantem tanto pelo toque suave quanto pela sua durabilidade incomparável.</span>
+ <span>Nossa excelência vai além da qualidade dos nossos produtos. Na Charbô Toys, oferecemos um nível sem precedentes de personalização, para que cada festa seja verdadeiramente singular. Desde a escolha de cores vibrantes, estampas cativantes e acessórios encantadores, até a inclusão de detalhes personalizados, estamos prontos para transformar suas ideias em realidade. Queremos que nossos ursos de pelúcia façam parte das suas memórias mais preciosas, tornando cada momento inesquecível.</span>
+ <span>Além disso, na era da praticidade e conveniência, a Charbô Toys disponibiliza a sua experiência de compra on-line. Através do nosso e-commerce sofisticado, você pode explorar nosso extenso catálogo de produtos, escolher suas peças favoritas e adquiri-las no conforto do seu lar. A cada visita ao nosso site, você descobrirá uma variedade infinita de opções encantadoras para presentear ou decorar suas festas. Mantemos nosso catálogo atualizado constantemente, para acompanhar as últimas tendências e garantir que sua escolha seja sempre excepcional.</span>
+ <span>Ao escolher a Charbô Toys, você está escolhendo uma empresa comprometida em oferecer produtos de alta qualidade, atendimento excepcional e soluções personalizadas para tornar seus sonhos realidade. Valorizamos cada cliente e buscamos superar suas expectativas, criando momentos mágicos repletos de amor e encantamento.</span>
+ <span>Dê as boas-vindas ao deslumbrante universo dos ursos de pelúcia da Charbô Toys. Estamos ansiosos para guiá-lo através de um mundo encantado, onde cada detalhe é cuidadosamente planejado para criar lembranças que durarão para sempre.</span>
+ <span>Equipe Charbô Toys</span>
+
   </div>
  
 

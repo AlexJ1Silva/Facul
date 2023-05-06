@@ -191,21 +191,21 @@ text-shadow: 4px 4px 4px #aaa;
         rotate(-40deg)
         skewX(70deg)
         scale(1.5);
-      text-shadow: 0 0 20px whitesmoke;
+      text-shadow: 0 0 20px rgb(42, 252, 0);
       opacity: 0;
     }
   }
   
   @keyframes smoky-mirror {
     60% {
-      text-shadow: 0 0 40px whitesmoke; }
+      text-shadow: 0 0 40px rgb(81, 255, 61); }
     to {
       transform:
         translate3d(18rem,-8rem,0)
         rotate(-40deg) 
         skewX(-70deg)
         scale(2);
-       text-shadow: 0 0 20px whitesmoke;
+       text-shadow: 0 0 20px rgb(78, 255, 20);
       opacity: 0;
     }
   }
@@ -290,9 +290,12 @@ text-shadow: 4px 4px 4px #aaa;
   
 }
 
+.row{
+  text-align: center;
+  padding: 15px;
+}
 
-
-.row {
+.row span {
   /* background-color: #00ffb3; */
   text-align: center;
   padding: 15px;
