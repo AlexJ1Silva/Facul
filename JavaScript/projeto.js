@@ -17,7 +17,7 @@ function home() {
   if (!homeContainsDiv) {
 
     const homeInnerHTML = `
-  <div class="text"> Charbo Toys. </div>
+  <div class="text font-effect-emboss font-effect-fire-animation" > Charbô Toys. </div>
     
   <img src="img-Projeto/ur6.1.png" >
       

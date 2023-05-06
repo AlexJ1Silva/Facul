@@ -142,16 +142,19 @@ background-position: 0 0,10px 10px;
 
 }
 /*  div texto sobre a imagem home */
-.text{
-font-size: 50px;
+.text {
+  font-family: 'Tangerine', serif;
+font-size: 90px;
 color: #e5f7f1;
 position: absolute;
-top: 30%;
-left: 40%;
+top: 25%;
+left: 35%;
 transition: translate(-50%,-50%);
 text-align: center;
 background-color: rgba(0, 0, 0, 0);
 padding: 10px;
+text-shadow: 4px 4px 4px #aaa;
+
 }
 
 .portifolio {
@@ -215,7 +218,6 @@ padding: 10px;
   /*   background-color: #f90cc6; */
   flex-direction: row;
   flex-wrap: wrap;
-  max-height: 50vh;
   width: 680px;
 }
 
@@ -288,7 +290,7 @@ Responsivo no desktop */
 
   }
   .text{
-    font-size: 40px;
+    font-size: 60px;
     color: #e5f7f1;
     position: absolute;
     top: 40%;
@@ -363,7 +365,7 @@ Responsivo no desktop */
 
   }
   .text{
-    font-size: 40px;
+    font-size: 60px;
     color: #e5f7f1;
     position: absolute;
     top: 20%;
