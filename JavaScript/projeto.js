@@ -17,8 +17,8 @@ function home() {
   if (!homeContainsDiv) {
 
     const homeInnerHTML = `
-  
-    <div class="home">
+  <div class="text"> Charbo Toys. </div>
+    
   <img src="img-Projeto/ur6.1.png" >
       
   
@@ -30,7 +30,7 @@ function home() {
   </div><br>
 
 
-  </div>
+
 
 
   `
@@ -60,7 +60,7 @@ function portifolio() {
 
     const portifolioInnerHTML = `
   
-    <div class="portifolio">
+    
   <img src="img-Projeto/home3home.png" >
       
   
@@ -77,7 +77,7 @@ function portifolio() {
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ea, et perferendis nisi sint quisquam natus. Blanditiis nemo inventore iusto eligendi repellendus molestias eius enim, porro odit provident, nobis quos.
       4
   </div>
-  </div>
+  
 
 
   `
@@ -108,7 +108,7 @@ function sobre() {
 
     const sobreInnerHTML = `
   
-    <div class="sobre">
+    
   <img src="img-Projeto/home3home.png" >
       
   
@@ -124,7 +124,7 @@ function sobre() {
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ea, et perferendis nisi sint quisquam natus. Blanditiis nemo inventore iusto eligendi repellendus molestias eius enim, porro odit provident, nobis quos.
       4
   </div>
-  </div>
+ 
 
 
   `
