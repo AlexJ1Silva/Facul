@@ -1,7 +1,8 @@
 
 
 function home() {
-
+  
+  
   const sobreContainer = document.querySelector("#sobreContainer");
   sobreContainer.innerHTML = '';
   const homeContainer = document.querySelector("#homeContainer");
@@ -27,7 +28,7 @@ function home() {
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur odio vero excepturi iusto accusamus, ea voluptatem! Perferendis minima sit quaerat, voluptates quis sapiente pariatur, qui non quidem in consequatur.
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur odio vero excepturi iusto accusamus, ea voluptatem! Perferendis minima sit quaerat, voluptates quis sapiente pariatur, qui non quidem in consequatur.
 
-  </div><br>
+  </div>
 
 
 
