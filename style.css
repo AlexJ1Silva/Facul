@@ -174,7 +174,7 @@ text-shadow: 4px 4px 4px #aaa;
   color: #ddfff4;
     display: inline-block;
     text-shadow: 0 0 0 rgb(60, 252, 7);
-    animation: smoky 9s 2s both;
+    animation: smoky 5s 2s both;
   }
   
   span:nth-child(even){
@@ -187,8 +187,8 @@ text-shadow: 4px 4px 4px #aaa;
     }
     to {
       transform:
-        translate3d(15rem,-8rem,0)
-        rotate(-40deg)
+        translate3d(-15rem,-8rem,0)
+        rotate(40deg)
         skewX(70deg)
         scale(1.5);
       text-shadow: 0 0 20px rgb(42, 252, 0);
@@ -201,9 +201,8 @@ text-shadow: 4px 4px 4px #aaa;
       text-shadow: 0 0 40px rgb(81, 255, 61); }
     to {
       transform:
-        translate3d(18rem,-8rem,0)
-        rotate(-40deg) 
-        skewX(-70deg)
+        translate3d(-18rem,-8rem,0)
+        
         scale(2);
        text-shadow: 0 0 20px rgb(78, 255, 20);
       opacity: 0;
@@ -328,6 +327,8 @@ text-shadow: 4px 4px 4px #aaa;
 /* 
  ############################# Responsivo no desktop ############################# */
 @media (max-width: 1199px) {
+
+  
   #header {
     left: -300px;
   }
@@ -409,9 +410,13 @@ text-shadow: 4px 4px 4px #aaa;
     padding: 30px;
   }
 }
-
+@media (max-width: 420px){
+  
+}
 /* ########## responsivo dispositivos(tablet) ############ */
 @media (max-width: 820px){
+
+ 
 
   .home {
 
@@ -612,7 +617,7 @@ text-shadow: 4px 4px 4px #aaa;
   position: fixed;
   right: 15px;
   top: 15px;
-  z-index: 9998;
+  padding: 4px;
   border: 0;
   font-size: 24px;
   transition: all 0.4s;

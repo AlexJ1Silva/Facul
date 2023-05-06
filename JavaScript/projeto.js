@@ -17,7 +17,8 @@ function home() {
   if (!homeContainsDiv) {
 
     const homeInnerHTML = `
-  <div class="text " ><span>C</span><span>h</span><span>a</span><span>r</span><span>b</span><span>ô</span><span>&nbsp;</span><span>T</span><span>o</span><span>y</span><span>s</span><span>&nbsp;</span> </div>
+  <div class="text">
+  <span>C</span><span>h</span><span>a</span><span>r</span><span>b</span><span>ô</span><span>&nbsp;</span><span>T</span><span>o</span><span>y</span><span>s</span><span>&nbsp;</span> </div>
     
   <img src="img-Projeto/ur6.1.png" >
       
@@ -97,7 +98,7 @@ function portifolio() {
   <img src="img-Projeto/home3home.png" >
   <img src="img-Projeto/home3home.png" >
   </div>
-  
+
   <div class="row">
   <span>Além disso, disponibilizamos a nossa experiência de compra on-line através do nosso e-commerce sofisticado, onde você pode explorar nosso extenso catálogo de produtos, escolher suas peças favoritas e adquiri-las no conforto do seu lar.</span>
   <img src="img-Projeto/capaPortifolio.png" >
