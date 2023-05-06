@@ -78,14 +78,14 @@ function portifolio() {
   </div><br>
   
   <div class="row2">
-  <img src="img-Projeto/home3home.png" >
-  <img src="img-Projeto/home3home.png" >
-  <img src="img-Projeto/home3home.png" >
+  <img src="img-Projeto/home3home.png--" >
+  <img src="img-Projeto/home3home.png--" >
+  <img src="img-Projeto/home3home.png--" > 
   </div>
 
   <div class="row3">
-  <img src="img-Projeto/home3home.png" >
-  <img src="img-Projeto/home3home.png" >
+  <img src="img-Projeto/home3home.png--" >
+  <img src="img-Projeto/home3home.png--" >
   </div>
   
 
@@ -95,8 +95,8 @@ function portifolio() {
   </div>
 
   <div class="row4">
-  <img src="img-Projeto/home3home.png" >
-  <img src="img-Projeto/home3home.png" >
+  <img src="img-Projeto/home3home.png--" >
+  <img src="img-Projeto/home3home.png--" >
   </div>
 
   <div class="row">

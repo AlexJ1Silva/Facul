@@ -253,6 +253,36 @@ text-shadow: 4px 4px 4px #aaa;
   
 }
 
+/* portifolio grid alinhamento */
+
+.row2 img{
+  display: inline;
+  background-color: #0cf924;
+  width: 20vw;
+  height: 100vh;
+  margin-inline-end: 15px;
+  float: right;
+
+}
+.row3 img{
+  float: right;
+  display: inline;
+  width: 30.6vw;
+  height: 100vh;
+  margin-top: 16px;
+  margin-inline-end: 15px;
+  background-color: #770cf9;
+}
+.row4 img{
+  float: right;
+  display: inline;
+  width: 30.6vw;
+  height: 100vh;
+  margin-inline-end: 15px;
+  background-color: #f90c0c;
+
+}
+
 /* css sobre */
 
 .sobre {
