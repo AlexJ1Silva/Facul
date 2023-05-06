@@ -2,7 +2,6 @@
 
 function home() {
   
-  
   const sobreContainer = document.querySelector("#sobreContainer");
   sobreContainer.innerHTML = '';
   const homeContainer = document.querySelector("#homeContainer");
@@ -18,7 +17,7 @@ function home() {
   if (!homeContainsDiv) {
 
     const homeInnerHTML = `
-  <div class="text font-effect-emboss font-effect-fire-animation" > Charbô Toys. </div>
+  <div class="text font-effect-fire-animation " ><span>C</span><span>h</span><span>a</span><span>r</span><span>b</span><span>ô</span><span>&nbsp;</span><span>T</span><span>o</span><span>y</span><span>s</span><span>&nbsp;</span> </div>
     
   <img src="img-Projeto/ur6.1.png" >
       

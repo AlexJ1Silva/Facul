@@ -1,5 +1,5 @@
 
-/* css deixar logo redonda */
+/* deixar logo redonda */
 .rounded-circle {
   border-radius: 50% !important;
 
@@ -71,12 +71,6 @@
   
 }
 
-*,
-::after,
-::before {
-  box-sizing: border-box;
-}
-
 .nav-menu {
   line-height: 9px;
   align-items: center;
@@ -111,6 +105,8 @@ p {
 
 }
 
+/* div do copyright */
+
 .copy {
 
   line-height: 90px;
@@ -139,14 +135,28 @@ background-position: 0 0,10px 10px;
   float: right;
   flex-direction: column;
   align-items: center;
- 
 
 }
+
+.home img {
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*   background-color: #f90cc6; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-height: 68vh;
+  width: 680px;
+
+}
+
 /*  div texto sobre a imagem home */
 .text {
   font-family: 'Tangerine', serif;
 font-size: 90px;
-color: #e5f7f1;
+color: #1bf4ac;
 position: absolute;
 top: 15%;
 left: 37%;
@@ -156,7 +166,58 @@ background-color: rgba(0, 0, 0, 0);
 padding: 10px;
 text-shadow: 4px 4px 4px #aaa;
 
+
 }
+
+/* Efeito fumaça */
+.text span{
+  color: #ddfff4;
+    display: inline-block;
+    text-shadow: 0 0 0 rgb(60, 252, 7);
+    animation: smoky 9s 2s both;
+  }
+  
+  span:nth-child(even){
+    animation-name: smoky-mirror;
+  }
+  
+  @keyframes smoky {
+    60% {
+      text-shadow: 0 0 40px rgb(0, 255, 8);
+    }
+    to {
+      transform:
+        translate3d(15rem,-8rem,0)
+        rotate(-40deg)
+        skewX(70deg)
+        scale(1.5);
+      text-shadow: 0 0 20px whitesmoke;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes smoky-mirror {
+    60% {
+      text-shadow: 0 0 40px whitesmoke; }
+    to {
+      transform:
+        translate3d(18rem,-8rem,0)
+        rotate(-40deg) 
+        skewX(-70deg)
+        scale(2);
+       text-shadow: 0 0 20px whitesmoke;
+      opacity: 0;
+    }
+  }
+  
+  @for $item from 1 through 21 {
+    span:nth-of-type(#{$item}){ 
+      animation-delay: #{(3 + ($item/10))}s; 
+    }
+  } 
+
+
+ /*  css portifolio */
 
 .portifolio {
   background-color: #e5f7f2;
@@ -193,6 +254,8 @@ text-shadow: 4px 4px 4px #aaa;
   
 }
 
+/* css sobre */
+
 .sobre {
   background-color: #e5f7f2;
   opacity: 2.8;
@@ -227,19 +290,7 @@ text-shadow: 4px 4px 4px #aaa;
   
 }
 
-.home img {
-  text-align: center;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /*   background-color: #f90cc6; */
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-height: 68vh;
-  width: 680px;
 
-}
 
 .row {
   /* background-color: #00ffb3; */
