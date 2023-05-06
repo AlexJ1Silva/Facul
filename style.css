@@ -443,11 +443,17 @@ text-shadow: 4px 4px 4px #aaa;
     padding: 30px;
   }
 }
-@media (max-width: 420px){
-  
-}
+
 /* ########## responsivo dispositivos(tablet) ############ */
 @media (max-width: 820px){
+
+  .copy {
+
+    line-height: 76vh;
+    text-align: center;
+    font-size: small;
+    color: #e7e7e7;
+  }
 
   .row2 img{
    
