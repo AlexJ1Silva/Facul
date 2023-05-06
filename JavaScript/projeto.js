@@ -70,23 +70,44 @@ function portifolio() {
   if (!portifolioContainsDiv) {
 
     const portifolioInnerHTML = `
-  
-    
-  <img src="img-Projeto/home3home.png" >
-      
-  
+
   <div class="row">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur odio vero excepturi iusto accusamus, ea voluptatem! Perferendis minima sit quaerat, voluptates quis sapiente pariatur, qui non quidem in consequatur.
-      2
+  <img src="img-Projeto/capaPortifolio2.png" >
+  <span>A Charbô Toys é uma empresa de confecção de ursos de pelúcia que está no mercado há 15 anos. Nossa especialidade é a criação de lembranças para festas infantis, casas de festas e atendimento através do nosso e-commerce.</span>
   </div><br>
+  
+  <div class="row2">
   <img src="img-Projeto/home3home.png" >
-  <div class="row">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ea, et perferendis nisi sint quisquam natus. Blanditiis nemo inventore iusto eligendi repellendus molestias eius enim, porro odit provident, nobis quos.
-      3
+  <img src="img-Projeto/home3home.png" >
+  <img src="img-Projeto/home3home.png" >
   </div>
+
+  <div class="row3">
+  <img src="img-Projeto/home3home.png" >
+  <img src="img-Projeto/home3home.png" >
+  </div>
+  
+
   <div class="row">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ea, et perferendis nisi sint quisquam natus. Blanditiis nemo inventore iusto eligendi repellendus molestias eius enim, porro odit provident, nobis quos.
-      4
+
+  <span>Utilizamos apenas materiais de alta qualidade e trabalhamos com dedicação para criar ursos de pelúcia excepcionais que transmitem magia e proporcionam uma experiência única. Oferecemos um nível sem precedentes de personalização, desde escolha de cores, estampas e acessórios, até a inclusão de detalhes personalizados para tornar cada festa verdadeiramente singular.</span>
+  </div>
+
+  <div class="row4">
+  <img src="img-Projeto/home3home.png" >
+  <img src="img-Projeto/home3home.png" >
+  </div>
+  
+  <div class="row">
+  <span>Além disso, disponibilizamos a nossa experiência de compra on-line através do nosso e-commerce sofisticado, onde você pode explorar nosso extenso catálogo de produtos, escolher suas peças favoritas e adquiri-las no conforto do seu lar.</span>
+  <img src="img-Projeto/capaPortifolio.png" >
+  </div>
+
+  <div class="row">
+
+  <span>Ao escolher a Charbô Toys, você está escolhendo uma empresa comprometida em oferecer produtos de alta qualidade, atendimento excepcional e soluções personalizadas para tornar seus sonhos realidade. Estamos ansiosos para guiá-lo através de um mundo encantado, onde cada detalhe é cuidadosamente planejado para criar lembranças que durarão para sempre.</span>
+  <span>© Copyright <b>Charbô Toys</b></span>
+
   </div>
   
 
