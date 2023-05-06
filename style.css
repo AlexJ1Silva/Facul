@@ -450,18 +450,20 @@ text-shadow: 4px 4px 4px #aaa;
 @media (max-width: 820px){
 
   .row2 img{
-    padding: 0;
+   
+    padding: 10;
     display: flex;
     justify-content: center;
     max-width: 19vw;
     max-height: 100vh;
     margin-inline-end: 15px;
-    float: right;
+    
   
   }
   .row3 img{
-    padding: 0;
-    float: right;
+    
+    padding: 10;
+    
     display: flex;
     justify-content: center;
     max-width: 19vw;
@@ -471,8 +473,9 @@ text-shadow: 4px 4px 4px #aaa;
     
   }
   .row4 img{
-    padding: 0;
-    float: right;
+    
+    padding: 10;
+   
     display: flex;
     justify-content: center;
     max-width: 19vw;
@@ -668,7 +671,7 @@ text-shadow: 4px 4px 4px #aaa;
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
+  right: 35px;
   top: 15px;
   padding: 4px;
   border: 0;
@@ -692,5 +695,5 @@ text-shadow: 4px 4px 4px #aaa;
 }
 
 .mobile-nav-active #header {
-  left: 0;
+  left: -10px;
 }
