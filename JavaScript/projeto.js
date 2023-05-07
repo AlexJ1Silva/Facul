@@ -1,5 +1,4 @@
 
-
 function home() {
   
   const sobreContainer = document.querySelector("#sobreContainer");
@@ -144,7 +143,6 @@ function sobre() {
     
   <img src="img-Projeto/home3home.png" >
       
-  
   <div class="row">
  <span>Há 15 anos, nossa empresa tem iluminado sorrisos e conquistado corações através da confecção de ursos de pelúcia excepcionais. A Charbô Toys é uma referência no ramo, dedicada a criar lembranças memoráveis para festas infantis, casas de festas e atender às necessidades dos nossos clientes através do nosso renomado e-commerce.</span>
  <span>Na Charbô Toys, entendemos a importância dos momentos de celebração na vida das crianças. Cada um dos nossos ursos de pelúcia é meticulosamente concebido e confeccionado para transmitir a mais pura magia, proporcionando uma experiência única. Utilizando apenas os materiais mais refinados e de alta qualidade, garantimos que nossos ursos de pelúcia encantem tanto pelo toque suave quanto pela sua durabilidade incomparável.</span>
